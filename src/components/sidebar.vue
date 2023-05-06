@@ -16,19 +16,19 @@
       </div>
       <div class="ml-5">Dashboard</div>
     </RouterLink>
-    <RouterLink to="/" class="p-2 font-light hover:bg-white hover:text-blue-500 rounded-md flex text-white cursor-pointerp-2">
+    <RouterLink to="/dashboard" class="p-2 font-light hover:bg-white hover:text-blue-500 rounded-md flex text-white cursor-pointerp-2">
       <div>
         <UserGroupIcon class="w-5 h-5" />
       </div>
       <div class="ml-5">Shipping</div>
     </RouterLink>
-    <RouterLink to="/" class="flex font-light text-sm bg-white text-blue-500 p-2 rounded-md cursor-pointer mt-2">
+    <RouterLink to="/clients" class="flex font-light text-sm bg-white text-blue-500 p-2 rounded-md cursor-pointer mt-2">
       <div>
         <UsersIcon class="w-5 h-5" />
       </div>
       <div class="ml-5">Clients</div>
     </RouterLink>
-    <RouterLink to="/" class="flex font-light text-sm text-white hover:bg-white hover:text-blue-500 p-2 rounded-md cursor-pointer mt-2">
+    <RouterLink to="/dashboard" class="flex font-light text-sm text-white hover:bg-white hover:text-blue-500 p-2 rounded-md cursor-pointer mt-2">
       <div>
         <i class="bi bi-file-earmark-easel text-lg"></i>
       </div>
@@ -40,19 +40,19 @@
       </div>
       <div class="ml-5">Cargos</div>
     </RouterLink>
-    <RouterLink to="/" class="flex font-light text-sm text-white hover:bg-white hover:text-blue-500 p-2 rounded-md cursor-pointer mt-2">
+    <RouterLink to="/dashboard" class="flex font-light text-sm text-white hover:bg-white hover:text-blue-500 p-2 rounded-md cursor-pointer mt-2">
       <div>
         <i class="bi bi-receipt text-lg"></i>
       </div>
       <div class="ml-5">Invoices</div>
     </RouterLink>
-    <RouterLink to="/" class="flex text-sm font-light text-white hover:bg-white hover:text-blue-500 p-2 rounded-md cursor-pointer mt-2">
+    <RouterLink to="/dashboard" class="flex text-sm font-light text-white hover:bg-white hover:text-blue-500 p-2 rounded-md cursor-pointer mt-2">
       <div>
         <ShieldCheckIcon class="w-5 h-5" />
       </div>
       <div class="ml-5">Receipts</div>
     </RouterLink>
-    <RouterLink to="/" class="flex text-sm font-light text-white hover:bg-white hover:text-blue-500 p-2 rounded-md cursor-pointer mt-2">
+    <RouterLink to="/dashboard" class="flex text-sm font-light text-white hover:bg-white hover:text-blue-500 p-2 rounded-md cursor-pointer mt-2">
       <div>
         <i class="bi bi-kanban text-lg"></i>
       </div>

@@ -6,6 +6,7 @@ import printInvoice from "../views/printInvoice.vue"
 import dashboard from "../views/dashboard.vue"
 import accounting from "../views/accounting.vue"
 import cargo from "../views/cargo.vue"
+import clients from "../views/clients.vue"
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -45,6 +46,11 @@ const router = createRouter({
       name: "cargo",
       component: cargo,
     },
+    {
+      path: '/clients',
+      name: "clients",
+      component: clients,
+    }
     
   ],
 });
